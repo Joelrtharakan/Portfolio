@@ -100,8 +100,7 @@ const Footer: React.FC = () => {
             <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
               {/* Copyright */}
               <div className="flex items-center space-x-2 text-slate-400 text-sm">
-                <span>© {currentYear} Joel R Tharakan. Made with</span>
-                <Heart className="w-4 h-4 text-red-400 fill-current" />
+                <span>© {currentYear} Joel R Tharakan.</span>
               </div>
 
               {/* Back to Top */}
