@@ -4,6 +4,21 @@ import { Briefcase, Calendar, MapPin, ExternalLink } from 'lucide-react';
 const Experience: React.FC = () => {
   const experiences = [
     {
+      title: "AI Development & Software Integration Intern",
+      company: "LQMS Software Solutions LLC",
+      period: "Summer 2025",
+      location: "Dubai, UAE (ONSITE)",
+      type: "Internship",
+      description: [
+        "Completed a 4-week internship focused on AI development and software system integration",
+        "Designed and developed an AI-powered support ticketing system with Jira integration to enhance customer service workflows",
+        "Integrated an AI-driven chatbot using Ollama’s LLaMA 3.2 model to assist users in real-time with support queries",
+        "Streamlined support workflows by merging conversational AI with enterprise-grade issue tracking systems",
+      ],
+      technologies: ["AI Systems Integration", "Automation", "Ollama LLaMA 3.2", "Python", "Web Application Development", "Jira Integration"],
+      color: "blue"
+    },
+    {
       title: "Data Science & Analytics Intern",
       company: "Innovate",
       period: "Summer 2024",
@@ -15,7 +30,7 @@ const Experience: React.FC = () => {
         "Developed and evaluated machine learning models to identify misinformation with improved accuracy and interpretability"
       ],
       technologies: ["Python", "Machine Learning", "Data Analytics", "Classification", "Model Evaluation"],
-      color: "blue"
+      color: "red"
     },
     {
       title: "Omni Sports Leader",
